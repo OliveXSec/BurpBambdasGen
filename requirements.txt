@@ -1,0 +1,13 @@
+# LLM
+anthropic>=0.40.0
+
+# CLI
+typer>=0.9.0
+rich>=13.0.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Utilities
+pyyaml>=6.0
+pyperclip>=1.8.0

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated knowledge base: this is a verbatim copy of PortSwigger's docs,
+# rebuild it locally with scripts/ingest.py instead of committing it.
+data/documentation.json
+
+# Bambdas generados
+output/
+*.bambda
+
+# Logs
+*.log
+.pytest_cache/
